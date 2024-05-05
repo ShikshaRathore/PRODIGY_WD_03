@@ -1,0 +1,33 @@
+body {
+  font-family: "lato", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #0c2d48;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 4rem 0;
+}
+
+#board {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 2em;
+  background-color: antiquewhite;
+  
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
